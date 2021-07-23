@@ -1,0 +1,530 @@
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    line-height: 1.42;
+    font-size: 16px;
+    background-image: url(img/background.png);
+    -webkit-font-smoothing: antialaised;
+    -moz-osx-font-smoothing: grayskale;
+    margin: 0;
+}
+
+a {
+    column-rule: inherit;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+     
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    font-weight: normal;
+}
+
+body , html {
+    height: 100%;
+}
+
+.warapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1141px;
+}
+
+.hero__container {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ min-width: 500px;
+}
+
+.hero {
+    margin-bottom: 246px;
+
+}
+
+.header {
+    margin-bottom: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 29px;
+}
+
+.logo {
+    display: block;
+    margin-right: 79px;
+    
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col-align-right {
+    justify-content: flex-end;
+
+}
+
+.contact {
+    right: 0;
+}
+
+.address__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 44px;
+}
+
+.address__item:last-child {
+margin-right: 0;
+}
+
+.address__link {
+    font-size: 13px;
+    
+}
+
+.address__link:hover {
+    background: #DA0100;
+}
+
+.contact{
+    font-style: normal;
+    text-align: right;
+}
+
+.contact__phone{
+    font-size: 26px;
+}
+
+.contact__workhours{
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.hero__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    width: 45%;
+    margin-bottom: 27px;
+
+}
+
+.hero__text {
+    font-size: 18px;
+    margin-bottom: 32px;
+}  
+
+.button {
+    display: inline-block;
+    background-color: #F5170E;
+    border-radius: 25px;
+    padding: 18px 40px;
+    font-weight: normal;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #DA0100;
+}
+
+.section__tours {
+    margin-bottom: 264px;
+}
+
+.tours__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours__header {
+    display: inline-block;
+    
+}
+
+.tours {
+    margin-bottom: 130px;
+}
+
+.tours__title {
+    font-size: 36px;
+    margin-bottom: 52px;
+    width: 273px;
+    margin-right: 12px;
+    display: inline-block;  
+    line-height: 1.3;
+}
+
+.tours__pic {
+    border-radius: 5px 5px 0 0;
+}
+
+.tours__icons {
+   display: inline-block; 
+}
+
+.tours__item {
+    min-height: 449px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: calc(100% /3 - 18px);
+}
+
+
+
+.tours__item:last-child {
+    margin-right: 0px;
+}
+
+.toures__img {
+    min-height: 144px;
+}
+
+.tours__subtitle {
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 14px;
+    
+}
+
+.tours__catalog {
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours__content {
+    padding: 34px 38px 26px 22px;
+}
+
+
+
+.tours__option:last-child {
+    padding-right: 0;
+}
+
+.tours__option-img1   {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.tours__option-img2   {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tours__indent {
+    font-size: 16px;
+    color: #666666;
+    display: inline-block;
+    line-height: 36px;
+    margin-left: 7px;
+}
+
+.tours__discription {
+    color:  #303030;
+    font-size: 14px;
+    margin-bottom: 29px;
+}
+
+.button_style_transparent {
+    color: #F5170E;
+    background: #FFFFFF;
+    padding: 16px 29px;
+    border: 1px solid #F5170E ;
+}
+
+.button_style_transparent:hover {
+    color: #FFFFFF;
+}
+
+.promotions__topic {
+    margin-bottom: 48px;
+   
+}
+
+.promotions {
+    margin-bottom: 52px;
+}
+
+.promotions__news {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.promotions__catalog {
+    vertical-align: top;
+    position: relative;
+    border-radius: 5px;
+    height: 394px;
+    margin-right: 25px;
+    flex: 1;
+}
+
+.promotions__pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+
+.single-catalog__text {
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 140px;
+    padding: 10px 29px 46px 31px;
+}
+
+.single-catalog__date {
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 12px;
+    
+}
+
+.single-catalog__title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    padding-bottom: 4px;
+    
+}
+
+.single-catalog__сomment {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 152px;
+}
+
+.paginator__list {
+    display: flex;
+    align-items: center;
+}
+
+.paginator__display {
+    margin-right: 22px;
+    margin-left: 17px;
+}
+
+.paginator__item {
+   text-align: center;
+}
+
+.paginator__button {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+
+.paginator__item--active .paginator__button {
+    background: #FFFFFF;
+    color: #F5170E;
+    display: block;
+}
+
+.paginator__button:hover {
+    background: #FFFFFF;
+    color: #F5170E;
+    display: block;
+}
+
+.about {
+    display: flex;
+}
+
+.about__list {
+    margin-bottom: 54px;
+}
+
+.about__description {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position:absolute;
+    padding: 70px 202px 66px 81px;
+    max-width: 785px;
+}
+
+.about__pic-1, .about__pic-2{
+    border-radius: 5px;
+}
+
+.about__fragment {
+    position: relative;
+    margin-top: -405px ;
+    margin-left: 353px;
+
+}
+    
+.about__title {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;  
+    margin-bottom: 37px;
+}
+
+.about__text {
+    Font-style: normal;
+    Font-size: 16px;
+    Line-height: 27px;
+    color: black;
+    margin-bottom: 70px;
+}
+
+.footer-container__content {
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.footer-container__section {
+    height: 148px;
+}
+
+.footer {
+    position: relative;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col-align-right {
+    align-items: flex-end;
+    align-items: center;
+}
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.social__link{
+    display: block;
+    text-decoration: none;
+    height: 36px;
+    width: 36px;
+}
+
+
+.social__icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.social__icon:last-child {
+    margin-right: 0;
+}
+
+.social {
+    margin-right: 74px;
+}
+
+.social__icon-tg {
+    background-image: url(./img/telegram.png);
+}
+
+.social__icon-fb {
+    background-image: url(./img/f.png);
+}
+
+.social__icon-ig {
+    background-image: url(./img/in.png);
+}
+
+.social__icon-vk {
+    background-image: url(./img/vk.png);
+}
+
+.social__icon-tg .social__link:hover {
+  background-image: url("./img/t2.png")
+}
+
+.social__icon-fb .social__link:hover {
+    background-image: url("./img/f2.png")
+}
+
+.social__icon-ig .social__link:hover {
+    background-image: url("./img/i2.png")
+}
+
+.social__icon-vk .social__link:hover {
+    background-image: url("./img/v2.png")
+}
+
+.main-page-wrapper {
+    background: url(./img/backgroundheader.png) center top no-repeat, url(./img/backgroundfooter.png) right  bottom  no-repeat; 
+}
+
+.promotions__pic , .about__pic-2 , .about__pic-1 , .tours__pic{
+    display: block;
+    max-width: 100%;
+}
+
+.footer__container {
+    margin-top: auto;
+}
