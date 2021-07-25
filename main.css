@@ -118,7 +118,7 @@ margin-right: 0;
 }
 
 .address__link:hover {
-    background: #DA0100;
+    color: #DA0100;
 }
 
 .contact{
@@ -433,6 +433,10 @@ margin-right: 0;
     Line-height: 27px;
     color: black;
     margin-bottom: 70px;
+}
+
+.breadcrumbs__link {
+    text-decoration: underline ;
 }
 
 .footer-container__content {
