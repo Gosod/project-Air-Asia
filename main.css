@@ -670,7 +670,7 @@ margin-right: 0;
 
 .inner-section {
     padding-top: 62px;
-    background: white;
+    background: #F4F5F5;
     color: #000;
 }
 
@@ -698,6 +698,7 @@ margin-right: 0;
     line-height: 25px;
     width: 553px;
     border: 1px solid #FFF;
+    margin-bottom: 26px;
 }
 
 .form__input::placeholder{
